@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(185, 75%, 39%);
+    position: relative;
+
+}
+div.all{
+    position: relative;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-radius: 13px;
+    overflow: hidden;
+    width: 360px;
+    height: auto;
+    background-color: white;
+}
+img.pho{
+    
+    width: 450px;
+    position: absolute;
+    bottom: -65px;
+    right: -88px;
+}
+img.src{
+    width: 500px;
+    top: -59px;
+    left: -80px;
+    position: absolute;
+
+}
+img.img1{
+    width: 360px;
+    height: 150px;
+}
+img.img2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    position: absolute;
+    top: 128px;
+    left: 160px;
+}
+div.label{
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 0 25px;
+    font-weight: 700;
+    border-bottom: 1px solid  hsl(0deg 1.1% 62.73% / 45%);
+}
+p.London{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color:  hsl(0, 0%, 59%);
+   
+    
+}
+div.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+p.fo ,.os ,.es{
+    color:  hsl(0, 0%, 59%);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
+
+
+}
